@@ -1,0 +1,122 @@
+###########################
+### backup shit         ###
+###########################
+*~
+*.bak
+~*
+**/*.rs.bk
+.#*
+.gdb_history
+Cargo.lock
+target/
+
+output
+Output
+
+###########################
+### dtar stuff          ###
+###########################
+.dtar_*
+diff.tar
+dtar_rm.sh
+
+###########################
+### big files           ###
+###########################
+packages/docker/*.run
+packages/docker/*.tar.gz
+packages/docker/*.tgz
+packages/docker/*.bin
+
+###########################
+### VS code stuff       ###
+###########################
+.vscode/*
+!.vscode/*.md
+!.vscode/*.svd
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/settings.json
+
+
+###########################
+### build artifacts     ###
+###########################
+BUILD
+
+###########################
+### Windows shit        ###
+###########################
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+###########################
+### Altium shit         ###
+###########################
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+#useless dirs
+Project\ Outputs
+Project\ Logs
+Project Outputs for*
+#History
+History
+#Exports, but not manual ones
+exports/*
+!exports/manual
+#status reports
+Status\ Report.Txt
+
+###################################
+### Simetrix/Simplis Simulation ###
+###################################
+
+simetrix/*.net
+simetrix/*.out
+simetrix/*.lck
+
+
+
+############################
+### Hyperlynx Simulation ###
+############################
+
+#useless dirs
+Project\ Logs
+Project Outputs for*
+
+#useless files
+#*.zip
+
+#History
+History
+
+#Exports, but not manual ones
+exports/*
+!exports/manual
+
+###########################
+### Python shit         ###
+###########################
+scripts/__pycache__/
+*.pyc
