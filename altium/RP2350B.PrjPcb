@@ -57,7 +57,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -101,12 +101,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document4]
+DocumentPath=RP2350B.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=8CE2035B-1BE0-4922-A20B-FAB49D38E777
 Description=PCBA
 AllowFabrication=0
 ParameterCount=0
-VariationCount=53
+VariationCount=61
 Variation1=Designator=JP1|UniqueId=\OQBXNKFO|Kind=1|AlternatePart= 
 Variation2=Designator=JP2|UniqueId=\SEGUFDLT|Kind=1|AlternatePart= 
 Variation3=Designator=JP3|UniqueId=\LAFQLTPU|Kind=1|AlternatePart= 
@@ -160,7 +177,35 @@ Variation50=Designator=K5|UniqueId=\LKRSMUFM|Kind=0|AlternatePart=
 Variation51=Designator=K6|UniqueId=\MZCDZUIO|Kind=0|AlternatePart= 
 Variation52=Designator=K7|UniqueId=\LVOJEQCG|Kind=0|AlternatePart= 
 Variation53=Designator=K8|UniqueId=\BFZHYITF|Kind=0|AlternatePart= 
+Variation54=Designator=X2|UniqueId=\ZMBMEKMN|Kind=1|AlternatePart= 
+Variation55=Designator=X3|UniqueId=\JVLKZOMO|Kind=1|AlternatePart= 
+Variation56=Designator=X5|UniqueId=\IKIUMMMJ|Kind=1|AlternatePart= 
+Variation57=Designator=X6|UniqueId=\JBOCLMCW|Kind=1|AlternatePart= 
+Variation58=Designator=X1|UniqueId=\OYAGEQSW|Kind=1|AlternatePart= 
+Variation59=Designator=X4|UniqueId=\GCIGTGTR|Kind=1|AlternatePart= 
+Variation60=Designator=JP1|UniqueId=\KUGMYLTL|Kind=1|AlternatePart= 
+Variation61=Designator=JP2|UniqueId=\TTPKUBXD|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=outputs\Bill of Materials-RP2350B.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=outputs\Copy of Bill of Materials-RP2350B.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for RP2350B\Design Rule Check - RP2350B.html
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=outputs\RP2350B.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=outputs\RP2350B.xlsx.xlsx
+DItemRevisionGUID=
 
 [Parameter1]
 Name=companyName
