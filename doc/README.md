@@ -18,3 +18,4 @@
 - [Rust on RP2350](https://www.raspberrypi.com/news/rust-on-rp2350/)
 - [Rust with the Raspberry Pi Pico 2 & RP2350](https://murraytodd.medium.com/rust-with-the-raspberry-pi-pico-2-rp2350-e5f537af1c25)
 - [rp235x-pac](https://crates.io/crates/rp235x-hal)
+- [probe-rs #2787](https://github.com/probe-rs/probe-rs/issues/2787)
